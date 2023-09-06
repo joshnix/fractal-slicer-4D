@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+rayon = "1.7"
+simple_logger = "4.2"
+log = "0.4"
+ordered-float = {version = "3.0"}
+
+[features]
+default = ["logging"]
+logging = []
